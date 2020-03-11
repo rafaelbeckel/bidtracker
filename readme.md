@@ -72,6 +72,10 @@ go run .
 # or
 go build
 ./bidtracker
+
+# or
+docker image build -t bidtracker .
+docker container run -p 3000:3000 bidtracker
 ```
 
 ### Getting a JWT Token and Basic Testing:
